@@ -1,0 +1,59 @@
+.pokemon-details {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.pokemon-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  width: 100%;
+  padding: 3%;
+  background-color: #fb5193;
+}
+
+h2 {
+  background-color: #cf4278;
+  color: #fff;
+  padding: 1%;
+  text-transform: uppercase;
+  font-size: 0.8em;
+  padding-left: 10%;
+}
+
+.pokemon-image {
+  width: 40%;
+}
+
+.pokemon-name {
+  font-size: 1.5em;
+  color: #fff;
+}
+
+.pokemon-profile {
+  list-style: none;
+  padding: 0;
+}
+
+.pokemon-profile li {
+  display: flex;
+  padding: 8px;
+  color: #fff;
+  height: 70%;
+  font-size: 1.2em;
+  font-weight: 600;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Apply alternating background colors to list items */
+.pokemon-profile li:nth-child(odd) {
+  background-color: #f65090;
+}
+
+.pokemon-profile li:nth-child(even) {
+  background-color: #cf4278;
+}
