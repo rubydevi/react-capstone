@@ -1,0 +1,56 @@
+.input-container {
+  position: relative;
+  padding: 30% 5%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+  /* set background image */
+  background-image: url('../images/homeBackground.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.search-icon {
+  position: absolute;
+  top: 50%;
+  left: 75%;
+  transform: translateY(-50%);
+}
+
+.search {
+  color: grey;
+}
+
+input[type='text'] {
+  width: 70%;
+  border-radius: 15px;
+}
+
+.pokemon-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  list-style: none;
+  padding: 0;
+}
+
+.pokemon-grid-item {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  padding: 10%;
+  justify-content: flex-end;
+  background-color: #f65090;
+  color: #fffeff;
+  row-gap: 57px;
+}
+
+.pokemon-grid-item:nth-child(4n - 3),
+.pokemon-grid-item:nth-child(4n - 4) {
+  background-color: #cf4278;
+}
+
+.pokemon-grid-item:nth-child(4n - 2),
+.pokemon-grid-item:nth-child(4n - 1) {
+  background-color: #f65090;
+}

@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DetailsPage component snapshot 1`] = `
+<div
+  className="pokemon-details"
+>
+  <div
+    className="pokemon-header"
+  >
+    <img
+      alt="Pikachu"
+      className="pokemon-image"
+      src="path/to/pikachu-image.png"
+    />
+    <h1
+      className="pokemon-name"
+    >
+      PIKACHU
+    </h1>
+  </div>
+  <h2>
+    Pikachu
+    's Details
+  </h2>
+  <ul
+    className="pokemon-profile"
+  >
+    <li>
+      <span>
+        Pokemon Number
+      </span>
+      <span>
+        25
+      </span>
+    </li>
+    <li>
+      <span>
+        Base Experience
+      </span>
+      <span>
+        112
+      </span>
+    </li>
+    <li>
+      <span>
+        Weight
+      </span>
+      <span>
+        60
+      </span>
+    </li>
+    <li>
+      <span>
+        Height
+      </span>
+      <span>
+        4
+      </span>
+    </li>
+  </ul>
+</div>
+`;
