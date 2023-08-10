@@ -1,0 +1,16 @@
+.menu {
+  background-color: #ec4c8a;
+  color: #fff;
+  display: flex;
+  padding: 3%;
+  justify-content: space-between;
+}
+
+.back-button {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  color: #fff;
+  font-size: 1.3em;
+  cursor: pointer;
+}
