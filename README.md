@@ -1,70 +1,153 @@
-# Getting Started with Create React App
+<!-- TABLE OF CONTENTS -->
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# 📗 Table of Contents
 
-## Available Scripts
+- [📖 About the Project](#about-project)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+<!-- - [🚀 Live Demo](#live-demo) -->
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [📝 License](#license)
 
-In the project directory, you can run:
+# 📖 Pokemon Explorer App <a name="about-project"></a>
 
-### `npm start`
+The Pokémon Explorer App is a single-page web application built with React and Redux that allows users to explore information about various Pokémon species. The app fetches data from the [PokeAPI](https://pokeapi.co/api/v2/pokemon?limit=151) and presents it in an intuitive and user-friendly interface. The home page displays a grid of Pokémon species, each with a unique background color pattern based on their position. Users can filter Pokémon by name using an input field. Clicking on a Pokémon takes users to a details page where they can view information such as the Pokémon's name, number, base experience, weight, and height. The app offers easy navigation between the home page and details page, enhancing the user experience and making it an enjoyable platform for discovering Pokémon details.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Tech Stack <a name="tech-stack"></a>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li>HTML and CSS</li>
+    <li>JavaScript</li>
+    <li>React & Redux</li>
+  </ul>
+</details>
 
-### `npm test`
+<!-- Features -->
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Key Features <a name="key-features"></a>
 
-### `npm run build`
+- **React & Redux App**
+- **JSX**
+- **SPA**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<!-- LIVE DEMO -->
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<!-- ## 🚀 Live Demo <a name="live-demo"></a>
 
-### `npm run eject`
+- [Live Demo Link](https://rubydevi.github.io/todolist-minimalist/dist/) -->
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<!-- <p align="right">(<a href="#readme-top">back to top</a>)</p> -->
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<!-- GETTING STARTED -->
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 💻 Getting Started <a name="getting-started"></a>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Prerequisites
 
-## Learn More
+In order to run this project you need:
+1. git
+2. VS Code or any code editor
+3. npm intalled
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Setup
 
-### Code Splitting
+Clone this repository to your desired folder:
+```sh
+  cd my-folder
+  git clone git@github.com:rubydevi/react-capstone.git
+  cd react-capstone
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Install
 
-### Analyzing the Bundle Size
+Install this project with:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+```sh
+ npm install
+```
 
-### Making a Progressive Web App
+### Usage
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+To run this project in the browser, run the code below on your terminal:
 
-### Advanced Configuration
+```sh
+ npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### Run tests
 
-### Deployment
+To run tests, run the following command:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+```sh
+ npx stylelint "**/*.{css,scss}"
+```
 
-### `npm run build` fails to minify
+```sh
+ npx eslint "**/*.{js,jsx}"
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 👥 Authors <a name="authors"></a>
+
+👤 **Chongtham Ruby Devi**
+
+- GitHub: [@rubydevi](https://github.com/rubydevi)
+- Twitter: [@arieabyss](https://twitter.com/ariesabyss)
+- LinkedIn: [Chongtham Ruby Devi](https://www.linkedin.com/in/chongtham-bhoomika/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
+- CRUD operations.
+- Dynamic Progress.
+- User Management.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/rubydevi/react-capstone/issues).
+
+<!-- SUPPORT -->
+
+## ⭐️ Show your support <a name="support"></a>
+
+If you like this project please leave a star, I'd really appreciate it.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## Acknowledgments <a name="acknowledgements"></a>
+
+- I'd like to thank Microverse for this wonderful README template.
+- I'd also like to thank [Nelson Sakwa](https://www.behance.net/sakwadesignstudio) for the design.
+
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](https://github.com/rubydevi/react-capstone/blob/main/LICENSE) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
