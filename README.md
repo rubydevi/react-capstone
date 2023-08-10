@@ -5,7 +5,7 @@
 - [📖 About the Project](#about-project)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-<!-- - [🚀 Live Demo](#live-demo) -->
+- [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -46,11 +46,12 @@ The Pokémon Explorer App is a single-page web application built with React and 
 
 <!-- LIVE DEMO -->
 
-<!-- ## 🚀 Live Demo <a name="live-demo"></a>
+## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://rubydevi.github.io/todolist-minimalist/dist/) -->
+- [Deployed App](https://64d4b5318f95a40008a1d353--rainbow-sherbet-144aa6.netlify.app/)
+- [My Presentation](https://drive.google.com/file/d/1iiHlb0XE2IHCMOTJJik9v_qM8aftwXRG/view?usp=sharing)
 
-<!-- <p align="right">(<a href="#readme-top">back to top</a>)</p> -->
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 
