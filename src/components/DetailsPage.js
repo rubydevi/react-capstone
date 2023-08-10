@@ -41,7 +41,6 @@ const DetailsPage = () => {
   const { name, value } = selectedPokemon;
   const defaultImage = selectedPokemonDetails.sprites.other.dream_world.front_default;
 
-  console.log(defaultImage);
   return (
     <div className="pokemon-details">
       <div className="pokemon-header">
